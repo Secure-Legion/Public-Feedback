@@ -4,7 +4,7 @@ This repository is for reports and suggestions, not app source code or general p
 
 ## Before posting
 
-1. Search [existing issues](https://github.com/Secure-Legion/feedback/issues) for a similar report.
+1. Search [existing issues](https://github.com/Secure-Legion/Public-Feedback/issues) for a similar report.
 2. Choose the closest issue form.
 3. Keep each issue focused on one problem or request.
 4. Include enough detail for someone else to understand or reproduce the problem.

@@ -8,4 +8,4 @@ Do not include user secrets, private messages, recovery phrases, or third-party 
 
 We appreciate coordinated disclosure. Please give our team an opportunity to investigate and address an issue before making exploit details public. We cannot guarantee a specific resolution timeline or offer a bug bounty through this repository.
 
-Ordinary crashes, interface issues, and non-sensitive bugs can be reported through the [public issue tracker](https://github.com/Secure-Legion/feedback/issues/new/choose).
+Ordinary crashes, interface issues, and non-sensitive bugs can be reported through the [public issue tracker](https://github.com/Secure-Legion/Public-Feedback/issues/new/choose).

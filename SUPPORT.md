@@ -1,6 +1,6 @@
 # Support
 
-For a reproducible bug, device compatibility problem, or product suggestion, use the [public issue forms](https://github.com/Secure-Legion/feedback/issues/new/choose).
+For a reproducible bug, device compatibility problem, or product suggestion, use the [public issue forms](https://github.com/Secure-Legion/Public-Feedback/issues/new/choose).
 
 For general questions that don't need a tracked issue, visit [securelegion.org](https://securelegion.org) or email **contact@securelegion.org**.
 

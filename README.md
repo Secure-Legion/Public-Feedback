@@ -8,7 +8,7 @@ This repository covers Secure on **Android and iOS**, and will also cover **desk
 
 ## Open an issue
 
-**[Submit feedback or report a problem](https://github.com/Secure-Legion/feedback/issues/new/choose)**
+**[Submit feedback or report a problem](https://github.com/Secure-Legion/Public-Feedback/issues/new/choose)**
 
 Choose the form that fits:
 
@@ -17,7 +17,7 @@ Choose the form that fits:
 - **General feedback:** Something works, but the experience could be better — or you have feedback that doesn't fit elsewhere.
 - **Compatibility issue:** Secure isn't working properly on a particular device, OS version, or network setup.
 
-Before opening a new issue, [search existing issues](https://github.com/Secure-Legion/feedback/issues). If someone has already reported the same problem, add useful details to that issue instead.
+Before opening a new issue, [search existing issues](https://github.com/Secure-Legion/Public-Feedback/issues). If someone has already reported the same problem, add useful details to that issue instead.
 
 ## What to include
 
@@ -35,7 +35,7 @@ Email **[dev@securelegion.org](mailto:dev@securelegion.org)** with the details. 
 
 We review incoming issues, ask for more detail when needed, and label them so people can follow their status. Some issues will be fixed quickly; others may take longer or may not fit our plans. An issue being open does not guarantee a change or a release date.
 
-You can follow [open issues](https://github.com/Secure-Legion/feedback/issues) and [closed issues](https://github.com/Secure-Legion/feedback/issues?q=is%3Aissue%20is%3Aclosed) here. For app builds, see [Secure releases](https://github.com/Secure-Legion/releases).
+You can follow [open issues](https://github.com/Secure-Legion/Public-Feedback/issues) and [closed issues](https://github.com/Secure-Legion/Public-Feedback/issues?q=is%3Aissue%20is%3Aclosed) here. For app builds, see [Secure releases](https://github.com/Secure-Legion/releases).
 
 ## Other links
 
