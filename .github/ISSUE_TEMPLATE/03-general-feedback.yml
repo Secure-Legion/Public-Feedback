@@ -1,0 +1,31 @@
+name: General feedback
+description: Share comments about how Secure works or feels to use.
+title: "[Feedback] "
+labels: ["type: feedback", "status: needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is a public discussion. Please don't include private messages, recovery phrases, keys, personal information, or vulnerability details.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Android
+        - iOS
+        - Desktop
+        - Multiple platforms
+        - Not platform-specific
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Your feedback
+      description: What works, what doesn't, or what do you think should change?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context (optional)
+      description: What were you trying to do? Why does this matter to you?

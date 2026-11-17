@@ -1,0 +1,82 @@
+name: Bug report
+description: Report a crash, broken behavior, or something that doesn't work as expected.
+title: "[Bug] "
+labels: ["type: bug", "status: needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Search existing issues first.
+
+        **This issue is public.** Do not share recovery phrases, private keys, private messages, contact information, .onion addresses, or sensitive logs. Report security vulnerabilities privately using SECURITY.md.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Android
+        - iOS
+        - Desktop
+        - Multiple platforms
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: Secure version
+      description: Found in app settings or release information, if available.
+      placeholder: e.g. 0.7.2
+  - type: input
+    id: device-os
+    attributes:
+      label: Device and OS version
+      placeholder: e.g. Pixel 9 / Android 16
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the problem and how it affects you.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Provide steps we can follow to see the same issue.
+      placeholder: |
+        1. Open Secure...
+        2. Tap...
+        3. Observe...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does this happen?
+      options:
+        - Every time
+        - Often
+        - Sometimes
+        - Only happened once
+        - Not sure
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context (optional)
+      description: Screenshots or sanitized logs can help. Remove sensitive information first.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched for an existing issue about this problem.
+          required: true
+        - label: I checked that my report contains no private or security-sensitive information.
+          required: true

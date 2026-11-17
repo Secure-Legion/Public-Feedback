@@ -1,0 +1,71 @@
+name: Compatibility issue
+description: Report a problem specific to a device, OS, or network environment.
+title: "[Compatibility] "
+labels: ["type: compatibility", "status: needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Avoid uploading sensitive logs, IP addresses, .onion addresses, private communications, or device identifiers. Use SECURITY.md for vulnerabilities.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Android
+        - iOS
+        - Desktop
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device model
+      placeholder: e.g. Samsung Galaxy S25
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: OS version
+      placeholder: e.g. Android 16
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: Secure version
+      placeholder: e.g. 0.7.2
+  - type: dropdown
+    id: connection
+    attributes:
+      label: Connection type when the issue happened
+      options:
+        - Wi-Fi
+        - Cellular
+        - Both Wi-Fi and cellular
+        - Offline
+        - Not relevant / not sure
+  - type: textarea
+    id: problem
+    attributes:
+      label: Describe the compatibility problem
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How can we reproduce it?
+    validations:
+      required: true
+  - type: textarea
+    id: workaround
+    attributes:
+      label: Workarounds or other details (optional)
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched for similar issues and removed sensitive details.
+          required: true
